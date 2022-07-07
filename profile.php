@@ -231,6 +231,10 @@
 							
 							
 					}
+					else {
+
+						print ('db not found')
+					}
 
 
 
