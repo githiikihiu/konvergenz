@@ -10,7 +10,7 @@ $user_name = "admin";
 
     if ($db_found) {
 
-print ('connected')
+print ('connected');
     }
 
     ?>
