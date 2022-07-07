@@ -10,10 +10,10 @@ if (isset($_POST['submit2'])){
 									$closing_date=htmlspecialchars(strtolower(rtrim($_POST['closing_date'])));
 									$delivery_location=htmlspecialchars(strtolower(rtrim($_POST['delivery_location'])));
 									
-   $user_name = "root";
-	$password = "";
-	$database = "konvergenz";
-	$server = "127.0.0.1";
+									$user_name = "admin";
+									$password = "#R4RY~}mXRe;mt5D";
+									$database = "konvergenz";
+									$server = "database-2.ckcysvomqjoq.eu-west-2.rds.amazonaws.com";
 
 	$db_handle = mysql_connect($server, $user_name, $password);
 	$db_found = mysql_select_db($database, $db_handle);

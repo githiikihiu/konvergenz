@@ -24,10 +24,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 	}
 }
 
-$user_name = "root";
-	$password = "";
+$user_name = "admin";
+	$password = "#R4RY~}mXRe;mt5D";
 	$database = "konvergenz";
-	$server = "127.0.0.1";
+	$server = "database-2.ckcysvomqjoq.eu-west-2.rds.amazonaws.com";
 	
 		$db_handle = mysql_connect($server, $user_name, $password);
 	$db_found = mysql_select_db($database, $db_handle);
@@ -88,10 +88,10 @@ $user_name = "root";
 </td></tr></table>				
 				
 <?php
-	$user_name = "root";
-	$password = "";
-	$database = "konvergenz";
-	$server = "127.0.0.1";
+$user_name = "admin";
+$password = "#R4RY~}mXRe;mt5D";
+$database = "konvergenz";
+$server = "database-2.ckcysvomqjoq.eu-west-2.rds.amazonaws.com";
 	
 		$db_handle = mysql_connect($server, $user_name, $password);
 	$db_found = mysql_select_db($database, $db_handle);
@@ -151,19 +151,19 @@ $user_name = "root";
 	
 </select>
 
-<tr><td>Interest to BidManagement to review and raise interest to bid if it’s feasible<td>Directors & BDM
+<tr><td>Interest to BidManagement to review and raise interest to bid if itï¿½s feasible<td>Directors & BDM
 					<td><select name='COL2'>
 	<option value='Pending'>Pending</option><option value='Completed'>Completed</option><option value="<?php print $COL2 ?>" selected><?php print $COL2 ?></option>
 	
 </select>
 
 <tr><td>High Level Technical Assessment and Tender value estimationTechnical Manager to review the client r
-equirements and advise the management.Identify all important dates’ i.e. Pre-bid visits, Site visits and date of closure.<td>Technical Manager & Tech team
+equirements and advise the management.Identify all important datesï¿½ i.e. Pre-bid visits, Site visits and date of closure.<td>Technical Manager & Tech team
 					<td><select name='COL3'>
 	<option value='Pending'>Pending</option><option value='Completed'>Completed</option><option value="<?php print $COL3 ?>" selected><?php print $COL3 ?></option>
 	
 </select>
-<tr><td>Confirmation to BidManagement to review and  give green light to bid<td>Management
+<tr><td>Confirmation to BidManagement to review andï¿½ give green light to bid<td>Management
 					<td><select name='COL4'>
 	<option value='Pending'>Pending</option><option value='Completed'>Completed</option><option value="<?php print $COL4 ?>" selected><?php print $COL4 ?></option>
 	
@@ -190,7 +190,7 @@ equirements and advise the management.Identify all important dates’ i.e. Pre-bid
 </select>
 <tr><td>Detailed Technical Assessment & ValuationSolution av
 ailable(If yes Proceed with Valuation)Solution requires engagement of new 
-suppliers(if yes forward to BDM to solicit) Suppliers found(BDM to forward to TM to complete valuation)T Manager to assign a Tech resource to carry out site surveys if necessary.<td> Technical Manager  BDM  Tech Team
+suppliers(if yes forward to BDM to solicit) Suppliers found(BDM to forward to TM to complete valuation)T Manager to assign a Tech resource to carry out site surveys if necessary.<td>ï¿½Technical Managerï¿½ï¿½BDMï¿½ï¿½Tech Team
 					<td><select name='COL9'>
 	<option value='Pending'>Pending</option><option value='Completed'>Completed</option><option value="<?php print $COL9 ?>" selected><?php print $COL9 ?></option>
 	
@@ -229,10 +229,10 @@ suppliers(if yes forward to BDM to solicit) Suppliers found(BDM to forward to TM
 <?php
 
 
-	$user_name = "root";
-	$password = "";
+$user_name = "admin";
+	$password = "#R4RY~}mXRe;mt5D";
 	$database = "konvergenz";
-	$server = "127.0.0.1";
+	$server = "database-2.ckcysvomqjoq.eu-west-2.rds.amazonaws.com";
 	
 		$db_handle = mysql_connect($server, $user_name, $password);
 	$db_found = mysql_select_db($database, $db_handle);
