@@ -34,7 +34,7 @@
 
 	if ($db_found) {
 
-							$SQL = "SELECT * FROM tender ORDER BY ID DESC";
+							print $SQL = "SELECT * FROM tender ORDER BY ID DESC";
 							$result = mysql_query($SQL);
 							$rows=mysql_num_rows($result);
 							$loopCount = 1;
