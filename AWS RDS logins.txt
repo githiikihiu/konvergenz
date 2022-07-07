@@ -1,0 +1,11 @@
+name of db instance : database-2
+
+master username : admin
+
+master password: #R4RY~}mXRe;mt5D
+
+server: 
+
+--------------HOW TO CONNECT TO RDS FROM EC2----------------
+
+mysql -h <<database-1.c2dfnt8vvqu6.eu-west-2.rds.amazonaws.com>> -P 3306 -u <<username>> -p
