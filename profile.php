@@ -229,12 +229,9 @@
 							
 							
 							
-							
+						print ('db found');	
 					}
-					else {
-
-						print ('db not found');
-					}
+					
 
 
 
