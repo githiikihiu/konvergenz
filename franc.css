@@ -1,0 +1,29 @@
+
+#link{
+text-align:center;
+border:solid #999999;
+font:calibri;
+}
+#link2{
+text-align:center;
+border:solid #999999;
+background-color:#123456;
+color:#FFFAF0;
+font-size:20px;
+}
+#link3{
+
+padding:10px;
+border:solid #999999 1px;
+
+
+
+}
+
+#link2 a{
+color:#FFFAF0;
+}
+
+#table{
+border:solid #999999;
+}
