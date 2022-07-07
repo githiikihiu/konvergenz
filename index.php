@@ -24,10 +24,10 @@ if (isset($_POST['submit1'])){
 									$delivery_location=htmlspecialchars(strtolower(rtrim($_POST['delivery_location'])));
 									$font_color='#FF0000';
 									
-   $user_name = "root";
-	$password = "";
+   $user_name = "admin";
+	$password = "#R4RY~}mXRe;mt5D";
 	$database = "konvergenz";
-	$server = "127.0.0.1";
+	$server = "database-2.ckcysvomqjoq.eu-west-2.rds.amazonaws.com";
 	$message='';
 	$week=date('W');
 
