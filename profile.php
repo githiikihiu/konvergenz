@@ -493,7 +493,6 @@ if (isset($_POST['submit4'])){
 									$quotation=htmlspecialchars(rtrim($_POST['quotation']));
 									
 								   
-									
 									$user_name = "admin";
 									$password = "#R4RY~}mXRe;mt5D";
 									$database = "konvergenz";
