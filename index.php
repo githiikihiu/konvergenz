@@ -85,7 +85,7 @@ $SQL6="INSERT INTO $tender_no (`ID`, `COL1`, `COL2`, `COL3`, `COL4`, `COL5`, `CO
 
 	mysql_query($SQL6);
 $tender_no_bidders=$tender_no."_bidders";
-PRINT $SQL99="CREATE TABLE IF NOT EXISTS $tender_no_bidders (
+$SQL99="CREATE TABLE IF NOT EXISTS $tender_no_bidders (
   `ID` int(7) NOT NULL AUTO_INCREMENT,
   `company` varchar(10) DEFAULT NULL,
   `bid_bond` varchar(10) DEFAULT NULL,
