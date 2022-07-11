@@ -42,7 +42,7 @@ if (isset($_POST['submit1'])){
 
 		if ($rows>0)
 		{
-		print "Tender already bookmarked";
+		print "<h2>Tender already bookmarked</h2>";
 		print "<script>alert('Already registered!')</script>";
 		}
 		
