@@ -47,7 +47,7 @@ if (isset($_POST['submit1'])){
 		}
 		elseif($tender_no==''){
 
-			print "<script>alert('Tendor number can't be blank')</script>";
+			print "Hello, tendor number cant be blank";
 		}
 		
 				else {
