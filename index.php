@@ -45,6 +45,10 @@ if (isset($_POST['submit1'])){
 		print "<h2>Tender already bookmarked</h2>";
 		print "<script>alert('Already registered!')</script>";
 		}
+		elseif($tender_no==''){
+
+			print "<script>alert('Tendor number can't be blank')</script>";
+		}
 		
 				else {
 						
