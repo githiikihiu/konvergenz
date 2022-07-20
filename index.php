@@ -6,7 +6,7 @@
 <body>
 <table id='table' align="center" >
 <tr>
-<td id=link><h1>**TENDER**</h1></td></tr>
+<td id=link><h1>TENDER*</h1></td></tr>
 <tr><td id=link2 >register |  <a href='profile.php'>profile</a> |  <a href='approved.php'>Approved</a> </td></tr>
 <tr><td>
 
